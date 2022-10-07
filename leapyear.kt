@@ -9,8 +9,7 @@ fun main(args: Array<String>) {
             leap = year % 400 == 0
         } else
             leap = true
-    } else
-        leap = false
+    }
 
     println(if (leap) "$year is a leap year." else "$year is not a leap year.")
 }
